@@ -1,0 +1,84 @@
+@media (min-width:1400px) {
+    .selector {
+        position: relative;
+        float: right;
+        overflow: hidden;
+        margin-right: 60px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        select {
+            background-color: #000000;
+            color: $text-color;
+            border: solid;
+            border-color: #ffffffb7;
+            border-radius: 50px;
+            border-width: 2px;
+            padding: 4px;
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    .selector {
+        position: relative;
+        float: right;
+        overflow: hidden;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        select {
+            background-color: #000000;
+            color: $text-color;
+            border: solid;
+            border-color: #ffffffb7;
+            border-radius: 50px;
+            border-width: 2px;
+            padding: 4px;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .selector {
+        position: relative;
+        float: right;
+        overflow: hidden;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        select {
+            background-color: #000000;
+            color: $text-color;
+            border: solid;
+            border-color: #ffffffb7;
+            border-radius: 50px;
+            border-width: 2px;
+            padding: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .selector {
+        position: relative;
+        float: right;
+        overflow: hidden;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        z-index: 0;
+
+        select {
+            background-color: #000000;
+            color: $text-color;
+            border: solid;
+            border-color: #ffffffb7;
+            border-radius: 50px;
+            border-width: 2px;
+            padding: 4px;
+        }
+    }
+}

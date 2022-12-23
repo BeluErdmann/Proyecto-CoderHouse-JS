@@ -1,0 +1,302 @@
+@media (min-width:1400px) {
+    form {
+        text-align: center;
+
+        label {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+
+    .form {
+        width: 650px;
+        margin-top: 50px;
+        margin-left: 33px;
+
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 650px;
+            height: 60px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 650px;
+            height: 60px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__text textarea {
+            resize: none;
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 650px;
+            height: 300px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
+
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            color: $text-color;
+            border-color: #ffffffb7;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 180px;
+            height: 50px;
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    form {
+        text-align: center;
+
+        label {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+
+    .form {
+        width: 700px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__text textarea {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 200px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
+
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            border-color: $text-color;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 130px;
+            height: 40px;
+            margin-bottom: 40px;
+        }
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    form {
+        text-align: center;
+
+        label {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+
+    .form {
+        width: 700px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+
+
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__text textarea {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 200px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
+
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            color: $text-color;
+            border-color: #ffffffb7;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 130px;
+            height: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    form {
+        text-align: center;
+
+        label {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+
+    .form {
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+
+
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 300px;
+            height: 40px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 300px;
+            height: 40px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__text textarea {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 300px;
+            height: 100px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
+
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            color: $text-color;
+            border-color: #ffffffb7;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 80px;
+            height: 30px;
+            margin-bottom: 40px;
+        }
+    }
+}

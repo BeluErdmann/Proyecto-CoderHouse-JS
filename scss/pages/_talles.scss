@@ -1,0 +1,65 @@
+@media (min-width:1400px) {
+    .sizes {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 50px;
+            width: 700px;
+        }
+    }
+
+    .background__sizes {
+        background-image: url(../assets/img/fondo-talles.png);
+        background-position: top;
+        background-size: cover;
+        height: 90vh;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    .sizes {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 50px;
+            width: 512px;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .sizes {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 50px;
+            width: 384px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sizes {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 50px;
+            width: 333px;
+        }
+    }
+}

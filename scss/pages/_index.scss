@@ -1,0 +1,112 @@
+.front__page {
+    background-image: url(../assets/img/fondo.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 88vh;
+}
+
+@media (min-width:1400px) {
+    .view__products {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .text__color:hover {
+        color: $main-color;
+    }
+
+    .icons {
+        i {
+            font-size: 5.3em;
+            text-align: center;
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    .view__products {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .icons {
+        i {
+            font-size: 4.5em;
+            text-align: center;
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .view__products {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .icons {
+
+        i {
+            font-size: 4.5em;
+            text-align: center;
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .view__products {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .icons {
+        i {
+            font-size: 4.5em;
+            text-align: center;
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+
+        h2 {
+            font-weight: 400;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+    }
+}

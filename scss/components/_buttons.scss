@@ -1,0 +1,80 @@
+.wsp__icon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+
+    img {
+        width: 45px;
+    }
+}
+
+.ig__icon {
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+
+    a:hover {
+        color: $main-color;
+    }
+}
+
+@media (min-width:1400px) {
+    .container__i {
+        @include dflex(center)
+    }
+
+    .center__icon i {
+        background-color: $main-color;
+        border-radius: 100%;
+        padding: 12px;
+        padding-right: 15px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #ae00ff;
+            border-radius: 100%;
+            padding: 12px;
+            padding-right: 15px;
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    .container__i {
+        @include dflex(center)
+    }
+
+    .center__icon i {
+        background-color: $main-color;
+        border-radius: 100%;
+        padding: 12px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .container__i {
+        @include dflex(center)
+    }
+
+    .center__icon i {
+        background-color: $main-color;
+        border-radius: 100%;
+        padding: 12px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container__i {
+        @include dflex(center)
+    }
+
+    .center__icon i {
+        background-color: $main-color;
+        border-radius: 100%;
+        padding: 12px;
+        padding-right: 15px;
+    }
+}

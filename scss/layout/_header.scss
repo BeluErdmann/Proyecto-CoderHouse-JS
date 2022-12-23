@@ -1,0 +1,147 @@
+.uppernav {
+    background-color: $main-color;
+    text-align: center;
+
+    p {
+        padding: 5px;
+        color: $text-color;
+    }
+}
+
+.nav {
+    background: #00000095;
+    height: 80px;
+    color: $text-color;
+
+    &__container {
+        display: flex;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 56px;
+    }
+
+    &__img {
+        width: 40px;
+    }
+
+    &__menu {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 48px;
+    }
+
+    &__item {
+        text-decoration: none;
+        color: $text-color;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+        &::after {
+            content: "";
+            display: block;
+            background: #ffffff;
+            width: 100%;
+            margin-top: 3px;
+            height: 3px;
+            clip-path: var(--clippy);
+            transition: clip-path .3s;
+        }
+
+        &:hover {
+            --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    &__label,
+    .nav__input {
+        display: none;
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+@media (min-width:1400px) {
+    .nav__label {
+        display: none;
+    }
+
+    .nav__menu {
+        justify-content: space-between;
+        width: 50%;
+
+        a {
+            flex: wrap;
+            font-size: 1em;
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    .nav__label {
+        display: none;
+    }
+
+    .nav__menu {
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .nav__menu a {
+        flex: wrap;
+        font-size: 1em;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .nav__label {
+        display: none;
+    }
+
+    .nav__menu {
+        justify-content: space-between;
+        width: 85%;
+
+        a {
+            flex: wrap;
+            font-size: 0.85em;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav__label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background: #171717bb;
+        width: 100%;
+        margin-top: 29px;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+        z-index: 10;
+    }
+
+    .nav__input:checked+.nav__menu {
+        background-color: #171717bb;
+        clip-path: circle(100% at center);
+    }
+}

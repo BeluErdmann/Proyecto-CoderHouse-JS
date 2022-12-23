@@ -1,0 +1,143 @@
+@media (min-width:1400px) {
+    .footer__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            padding-left: 20%;
+            padding-right: 20%;
+
+            a:hover {
+                color: $main-color;
+            }
+        }
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .footer__cards {
+        margin-bottom: 40px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .payment__card {
+        width: 60px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    .footer__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .footer__cards {
+        margin-bottom: 40px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .payment__card {
+        width: 50px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 4px;
+        margin: 4px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .footer__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .footer__cards {
+        margin-bottom: 40px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .payment__card {
+        width: 40px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 3px;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__nav {
+        text-align: center;
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+
+    .footer__cards {
+        margin-bottom: 40px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .payment__card {
+        width: 40px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 3px;
+        margin: 3px;
+    }
+}
